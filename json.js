@@ -25,18 +25,18 @@ const photos = "https://jsonplaceholder.typicode.com/photos";
 const todos = "https://jsonplaceholder.typicode.com/todos";
 const users = "https://jsonplaceholder.typicode.com/users";
 
-const loadData = () => {
-  fetch("https://jsonplaceholder.typicode.com/posts/1")
-    .then((res) => res.json())
-    .then((data) => console.log(data));
-};
-const loadPosts = () => {
-  fetch(posts)
-    .then((res) => res.json())
-    .then((post) => console.log(post));
-};
-const comment = () => {
-  fetch(comments)
-    .then((res) => res.json())
-    .then((comment) => console.log(comment));
-};
+// const loadData = () => {
+//   fetch("https://jsonplaceholder.typicode.com/posts/1")
+//     .then((res) => res.json())
+//     .then((data) => console.log(data));
+// };
+// const loadPosts = () => {
+//   fetch(posts)
+//     .then((res) => res.json())
+//     .then((post) => console.log(post));
+// };
+// const comment = () => {
+//   fetch(comments)
+//     .then((res) => res.json())
+//     .then((comment) => console.log(comment));
+// };
